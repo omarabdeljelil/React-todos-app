@@ -1,0 +1,84 @@
+.App {
+  text-align: center;
+}
+
+.todo-wrapper {
+  margin: 20px auto 20px auto;
+  width: 800px;
+  min-height: 600px;
+  border: 5px solid black;
+  padding: 20px;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+
+.btn {
+  outline: none;
+  box-shadow: none;
+  border-width: 2px;
+  border-radius: 3px;
+  border-style: solid;
+  padding: 8px;
+}
+
+.btn-primary {
+  color: blue;
+  border-color: blue;
+  background-color: transparent;
+}
+
+input {
+  width: 80%;
+  border: 2px solid blue;
+  margin-right: 10px;
+  padding: 5px;
+  line-height: 17px;
+}
+
+input:focus {
+  border: 2px solid green;
+}
+
+.todoWrapper {
+  border-bottom: 1px solid #efefef;
+  text-align: left;
+  margin-bottom: 10px;
+}
+.removeTodo {
+  margin-right: 20px;
+  margin-bottom: 10px;
+  outline: none;
+  box-shadow: none;
+  border-width: 2px;
+  border-radius: 3px;
+  border-style: solid;
+  padding: 8px;
+  color: red;
+  border-color: red;
+  background-color: transparent;
+}
+.completeTodo {
+  margin-right: 20px;
+  margin-bottom: 10px;
+  outline: none;
+  box-shadow: none;
+  border-width: 2px;
+  border-radius: 3px;
+  border-style: solid;
+  padding: 8px;
+  color: blue;
+  border-color: blue;
+  background-color: transparent;
+}
+.completed {
+  color: blue;
+  text-decoration: line-through;
+}
+
+.hideBtn {
+  display: none;
+}
